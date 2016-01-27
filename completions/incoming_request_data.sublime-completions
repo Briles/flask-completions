@@ -1,0 +1,125 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.Request(environ, populate_request=True, shallow=False)\t flask.Request",
+            "contents": "flask.Request(${1:environ}, ${2:populate_request=True}, ${3:shallow=False})$0"
+        },
+        {
+            "trigger": "form\t flask.Request",
+            "contents": "form$0"
+        },
+        {
+            "trigger": "args\t flask.Request",
+            "contents": "args$0"
+        },
+        {
+            "trigger": "values\t flask.Request",
+            "contents": "values$0"
+        },
+        {
+            "trigger": "cookies\t flask.Request",
+            "contents": "cookies$0"
+        },
+        {
+            "trigger": "stream\t flask.Request",
+            "contents": "stream$0"
+        },
+        {
+            "trigger": "headers\t flask.Request",
+            "contents": "headers$0"
+        },
+        {
+            "trigger": "data\t flask.Request",
+            "contents": "data$0"
+        },
+        {
+            "trigger": "files\t flask.Request",
+            "contents": "files$0"
+        },
+        {
+            "trigger": "environ\t flask.Request",
+            "contents": "environ$0"
+        },
+        {
+            "trigger": "method\t flask.Request",
+            "contents": "method$0"
+        },
+        {
+            "trigger": "path\t flask.Request",
+            "contents": "path$0"
+        },
+        {
+            "trigger": "full_path\t flask.Request",
+            "contents": "full_path$0"
+        },
+        {
+            "trigger": "script_root\t flask.Request",
+            "contents": "script_root$0"
+        },
+        {
+            "trigger": "url\t flask.Request",
+            "contents": "url$0"
+        },
+        {
+            "trigger": "base_url\t flask.Request",
+            "contents": "base_url$0"
+        },
+        {
+            "trigger": "url_root\t flask.Request",
+            "contents": "url_root$0"
+        },
+        {
+            "trigger": "is_xhr\t flask.Request",
+            "contents": "is_xhr$0"
+        },
+        {
+            "trigger": "blueprint\t flask.Request",
+            "contents": "blueprint$0"
+        },
+        {
+            "trigger": "endpoint\t flask.Request",
+            "contents": "endpoint$0"
+        },
+        {
+            "trigger": "get_json(force=False, silent=False, cache=True)\t flask.Request",
+            "contents": "get_json(${1:force=False}, ${2:silent=False}, ${3:cache=True})$0"
+        },
+        {
+            "trigger": "is_json\t flask.Request",
+            "contents": "is_json$0"
+        },
+        {
+            "trigger": "json\t flask.Request",
+            "contents": "json$0"
+        },
+        {
+            "trigger": "max_content_length\t flask.Request",
+            "contents": "max_content_length$0"
+        },
+        {
+            "trigger": "module\t flask.Request",
+            "contents": "module$0"
+        },
+        {
+            "trigger": "on_json_loading_failed(e)\t flask.Request",
+            "contents": "on_json_loading_failed(${1:e})$0"
+        },
+        {
+            "trigger": "routing_exception = None\t flask.Request",
+            "contents": "routing_exception = None$0"
+        },
+        {
+            "trigger": "url_rule = None\t flask.Request",
+            "contents": "url_rule = None$0"
+        },
+        {
+            "trigger": "view_args = None\t flask.Request",
+            "contents": "view_args = None$0"
+        },
+        {
+            "trigger": "flask.request\t flask.Request",
+            "contents": "flask.request$0"
+        }
+    ]
+}

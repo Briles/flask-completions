@@ -1,0 +1,41 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.signals_available\t flask.signals.Namespace",
+            "contents": "flask.signals_available$0"
+        },
+        {
+            "trigger": "flask.template_rendered\t flask.signals.Namespace",
+            "contents": "flask.template_rendered$0"
+        },
+        {
+            "trigger": "flask.request_started\t flask.signals.Namespace",
+            "contents": "flask.request_started$0"
+        },
+        {
+            "trigger": "flask.request_finished\t flask.signals.Namespace",
+            "contents": "flask.request_finished$0"
+        },
+        {
+            "trigger": "flask.got_request_exception\t flask.signals.Namespace",
+            "contents": "flask.got_request_exception$0"
+        },
+        {
+            "trigger": "flask.request_tearing_down\t flask.signals.Namespace",
+            "contents": "flask.request_tearing_down$0"
+        },
+        {
+            "trigger": "flask.appcontext_tearing_down\t flask.signals.Namespace",
+            "contents": "flask.appcontext_tearing_down$0"
+        },
+        {
+            "trigger": "flask.signals.Namespace\t flask.signals.Namespace",
+            "contents": "flask.signals.Namespace$0"
+        },
+        {
+            "trigger": "signal(name, doc=None)\t flask.signals.Namespace",
+            "contents": "signal(${1:name}, ${2:doc=None})$0"
+        }
+    ]
+}

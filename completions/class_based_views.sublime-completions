@@ -1,0 +1,29 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.views.View\t flask.views.View",
+            "contents": "flask.views.View$0"
+        },
+        {
+            "trigger": "classmethod as_view(name, *class_args, class_kwargs)\t flask.views.View",
+            "contents": "classmethod as_view(${1:name}, ${2:*class_args}, ${3:class_kwargs})$0"
+        },
+        {
+            "trigger": "decorators = ()\t flask.views.View",
+            "contents": "decorators = ()$0"
+        },
+        {
+            "trigger": "dispatch_request()\t flask.views.View",
+            "contents": "dispatch_request()$0"
+        },
+        {
+            "trigger": "methods = None\t flask.views.View",
+            "contents": "methods = None$0"
+        },
+        {
+            "trigger": "flask.views.MethodView\t flask.views.View",
+            "contents": "flask.views.MethodView$0"
+        }
+    ]
+}

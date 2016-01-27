@@ -1,0 +1,149 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.Blueprint(name, import_name, static_folder=None, static_url_path=None, template_folder=None, url_prefix=None, subdomain=None, url_defaults=None, root_path=None)\t flask.Blueprint",
+            "contents": "flask.Blueprint(${1:name}, ${2:import_name}, ${3:static_folder=None}, ${4:static_url_path=None}, ${5:template_folder=None}, ${6:url_prefix=None}, ${7:subdomain=None}, ${8:url_defaults=None}, ${9:root_path=None})$0"
+        },
+        {
+            "trigger": "add_app_template_filter(f, name=None)\t flask.Blueprint",
+            "contents": "add_app_template_filter(${1:f}, ${2:name=None})$0"
+        },
+        {
+            "trigger": "add_app_template_global(f, name=None)\t flask.Blueprint",
+            "contents": "add_app_template_global(${1:f}, ${2:name=None})$0"
+        },
+        {
+            "trigger": "add_app_template_test(f, name=None)\t flask.Blueprint",
+            "contents": "add_app_template_test(${1:f}, ${2:name=None})$0"
+        },
+        {
+            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, options)\t flask.Blueprint",
+            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:options})$0"
+        },
+        {
+            "trigger": "after_app_request(f)\t flask.Blueprint",
+            "contents": "after_app_request(${1:f})$0"
+        },
+        {
+            "trigger": "after_request(f)\t flask.Blueprint",
+            "contents": "after_request(${1:f})$0"
+        },
+        {
+            "trigger": "app_context_processor(f)\t flask.Blueprint",
+            "contents": "app_context_processor(${1:f})$0"
+        },
+        {
+            "trigger": "app_errorhandler(code)\t flask.Blueprint",
+            "contents": "app_errorhandler(${1:code})$0"
+        },
+        {
+            "trigger": "app_template_filter(name=None)\t flask.Blueprint",
+            "contents": "app_template_filter(${1:name=None})$0"
+        },
+        {
+            "trigger": "app_template_global(name=None)\t flask.Blueprint",
+            "contents": "app_template_global(${1:name=None})$0"
+        },
+        {
+            "trigger": "app_template_test(name=None)\t flask.Blueprint",
+            "contents": "app_template_test(${1:name=None})$0"
+        },
+        {
+            "trigger": "app_url_defaults(f)\t flask.Blueprint",
+            "contents": "app_url_defaults(${1:f})$0"
+        },
+        {
+            "trigger": "app_url_value_preprocessor(f)\t flask.Blueprint",
+            "contents": "app_url_value_preprocessor(${1:f})$0"
+        },
+        {
+            "trigger": "before_app_first_request(f)\t flask.Blueprint",
+            "contents": "before_app_first_request(${1:f})$0"
+        },
+        {
+            "trigger": "before_app_request(f)\t flask.Blueprint",
+            "contents": "before_app_request(${1:f})$0"
+        },
+        {
+            "trigger": "before_request(f)\t flask.Blueprint",
+            "contents": "before_request(${1:f})$0"
+        },
+        {
+            "trigger": "context_processor(f)\t flask.Blueprint",
+            "contents": "context_processor(${1:f})$0"
+        },
+        {
+            "trigger": "endpoint(endpoint)\t flask.Blueprint",
+            "contents": "endpoint(${1:endpoint})$0"
+        },
+        {
+            "trigger": "errorhandler(code_or_exception)\t flask.Blueprint",
+            "contents": "errorhandler(${1:code_or_exception})$0"
+        },
+        {
+            "trigger": "get_send_file_max_age(filename)\t flask.Blueprint",
+            "contents": "get_send_file_max_age(${1:filename})$0"
+        },
+        {
+            "trigger": "has_static_folder\t flask.Blueprint",
+            "contents": "has_static_folder$0"
+        },
+        {
+            "trigger": "jinja_loader\t flask.Blueprint",
+            "contents": "jinja_loader$0"
+        },
+        {
+            "trigger": "make_setup_state(app, options, first_registration=False)\t flask.Blueprint",
+            "contents": "make_setup_state(${1:app}, ${2:options}, ${3:first_registration=False})$0"
+        },
+        {
+            "trigger": "open_resource(resource, mode='rb')\t flask.Blueprint",
+            "contents": "open_resource(${1:resource}, ${2:mode='rb'})$0"
+        },
+        {
+            "trigger": "record(func)\t flask.Blueprint",
+            "contents": "record(${1:func})$0"
+        },
+        {
+            "trigger": "record_once(func)\t flask.Blueprint",
+            "contents": "record_once(${1:func})$0"
+        },
+        {
+            "trigger": "register(app, options, first_registration=False)\t flask.Blueprint",
+            "contents": "register(${1:app}, ${2:options}, ${3:first_registration=False})$0"
+        },
+        {
+            "trigger": "register_error_handler(code_or_exception, f)\t flask.Blueprint",
+            "contents": "register_error_handler(${1:code_or_exception}, ${2:f})$0"
+        },
+        {
+            "trigger": "route(rule, options)\t flask.Blueprint",
+            "contents": "route(${1:rule}, ${2:options})$0"
+        },
+        {
+            "trigger": "send_static_file(filename)\t flask.Blueprint",
+            "contents": "send_static_file(${1:filename})$0"
+        },
+        {
+            "trigger": "static_folder\t flask.Blueprint",
+            "contents": "static_folder$0"
+        },
+        {
+            "trigger": "teardown_app_request(f)\t flask.Blueprint",
+            "contents": "teardown_app_request(${1:f})$0"
+        },
+        {
+            "trigger": "teardown_request(f)\t flask.Blueprint",
+            "contents": "teardown_request(${1:f})$0"
+        },
+        {
+            "trigger": "url_defaults(f)\t flask.Blueprint",
+            "contents": "url_defaults(${1:f})$0"
+        },
+        {
+            "trigger": "url_value_preprocessor(f)\t flask.Blueprint",
+            "contents": "url_value_preprocessor(${1:f})$0"
+        }
+    ]
+}

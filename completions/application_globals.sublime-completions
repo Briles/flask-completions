@@ -1,0 +1,9 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.g\t flask",
+            "contents": "flask.g$0"
+        }
+    ]
+}

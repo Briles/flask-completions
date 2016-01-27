@@ -1,0 +1,13 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.jsonify(args, kwargs)\t flask",
+            "contents": "flask.jsonify(${1:args}, ${2:kwargs})$0"
+        },
+        {
+            "trigger": "flask.json\t flask",
+            "contents": "flask.json$0"
+        }
+    ]
+}

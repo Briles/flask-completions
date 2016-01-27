@@ -1,0 +1,105 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.ctx.RequestContext(app, environ, request=None)\t flask.ctx.RequestContext",
+            "contents": "flask.ctx.RequestContext(${1:app}, ${2:environ}, ${3:request=None})$0"
+        },
+        {
+            "trigger": "copy()\t flask.ctx.RequestContext",
+            "contents": "copy()$0"
+        },
+        {
+            "trigger": "match_request()\t flask.ctx.RequestContext",
+            "contents": "match_request()$0"
+        },
+        {
+            "trigger": "pop(exc=<object object>)\t flask.ctx.RequestContext",
+            "contents": "pop(${1:exc=<object object>})$0"
+        },
+        {
+            "trigger": "push()\t flask.ctx.RequestContext",
+            "contents": "push()$0"
+        },
+        {
+            "trigger": "flask._request_ctx_stack\t flask.ctx.RequestContext",
+            "contents": "flask._request_ctx_stack$0"
+        },
+        {
+            "trigger": "app\t flask.ctx.RequestContext",
+            "contents": "app$0"
+        },
+        {
+            "trigger": "url_adapter\t flask.ctx.RequestContext",
+            "contents": "url_adapter$0"
+        },
+        {
+            "trigger": "request\t flask.ctx.RequestContext",
+            "contents": "request$0"
+        },
+        {
+            "trigger": "session\t flask.ctx.RequestContext",
+            "contents": "session$0"
+        },
+        {
+            "trigger": "g\t flask.ctx.RequestContext",
+            "contents": "g$0"
+        },
+        {
+            "trigger": "flashes\t flask.ctx.RequestContext",
+            "contents": "flashes$0"
+        },
+        {
+            "trigger": "flask.ctx.AppContext(app)\t flask.ctx.RequestContext",
+            "contents": "flask.ctx.AppContext(${1:app})$0"
+        },
+        {
+            "trigger": "pop(exc=<object object>)\t flask.ctx.RequestContext",
+            "contents": "pop(${1:exc=<object object>})$0"
+        },
+        {
+            "trigger": "push()\t flask.ctx.RequestContext",
+            "contents": "push()$0"
+        },
+        {
+            "trigger": "flask._app_ctx_stack\t flask.ctx.RequestContext",
+            "contents": "flask._app_ctx_stack$0"
+        },
+        {
+            "trigger": "flask.blueprints.BlueprintSetupState(blueprint, app, options, first_registration)\t flask.ctx.RequestContext",
+            "contents": "flask.blueprints.BlueprintSetupState(${1:blueprint}, ${2:app}, ${3:options}, ${4:first_registration})$0"
+        },
+        {
+            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, options)\t flask.ctx.RequestContext",
+            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:options})$0"
+        },
+        {
+            "trigger": "app = None\t flask.ctx.RequestContext",
+            "contents": "app = None$0"
+        },
+        {
+            "trigger": "blueprint = None\t flask.ctx.RequestContext",
+            "contents": "blueprint = None$0"
+        },
+        {
+            "trigger": "first_registration = None\t flask.ctx.RequestContext",
+            "contents": "first_registration = None$0"
+        },
+        {
+            "trigger": "options = None\t flask.ctx.RequestContext",
+            "contents": "options = None$0"
+        },
+        {
+            "trigger": "subdomain = None\t flask.ctx.RequestContext",
+            "contents": "subdomain = None$0"
+        },
+        {
+            "trigger": "url_defaults = None\t flask.ctx.RequestContext",
+            "contents": "url_defaults = None$0"
+        },
+        {
+            "trigger": "url_prefix = None\t flask.ctx.RequestContext",
+            "contents": "url_prefix = None$0"
+        }
+    ]
+}

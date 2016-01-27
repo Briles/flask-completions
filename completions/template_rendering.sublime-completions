@@ -1,0 +1,17 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.render_template(template_name_or_list, context)\t flask",
+            "contents": "flask.render_template(${1:template_name_or_list}, ${2:context})$0"
+        },
+        {
+            "trigger": "flask.render_template_string(source, **context)\t flask",
+            "contents": "flask.render_template_string(${1:source}, ${2:**context})$0"
+        },
+        {
+            "trigger": "flask.get_template_attribute(template_name, attribute)\t flask",
+            "contents": "flask.get_template_attribute(${1:template_name}, ${2:attribute})$0"
+        }
+    ]
+}

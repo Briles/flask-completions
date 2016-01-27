@@ -1,0 +1,21 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.session\t flask.session",
+            "contents": "flask.session$0"
+        },
+        {
+            "trigger": "new\t flask.session",
+            "contents": "new$0"
+        },
+        {
+            "trigger": "modified\t flask.session",
+            "contents": "modified$0"
+        },
+        {
+            "trigger": "permanent\t flask.session",
+            "contents": "permanent$0"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.Config(root_path, defaults=None)\t flask.Config",
+            "contents": "flask.Config(${1:root_path}, ${2:defaults=None})$0"
+        },
+        {
+            "trigger": "from_envvar(variable_name, silent=False)\t flask.Config",
+            "contents": "from_envvar(${1:variable_name}, ${2:silent=False})$0"
+        },
+        {
+            "trigger": "from_json(filename, silent=False)\t flask.Config",
+            "contents": "from_json(${1:filename}, ${2:silent=False})$0"
+        },
+        {
+            "trigger": "from_mapping(mapping, kwargs)\t flask.Config",
+            "contents": "from_mapping(${1:mapping}, ${2:kwargs})$0"
+        },
+        {
+            "trigger": "from_object(obj)\t flask.Config",
+            "contents": "from_object(${1:obj})$0"
+        },
+        {
+            "trigger": "from_pyfile(filename, silent=False)\t flask.Config",
+            "contents": "from_pyfile(${1:filename}, ${2:silent=False})$0"
+        },
+        {
+            "trigger": "get_namespace(namespace, lowercase=True, trim_namespace=True)\t flask.Config",
+            "contents": "get_namespace(${1:namespace}, ${2:lowercase=True}, ${3:trim_namespace=True})$0"
+        }
+    ]
+}

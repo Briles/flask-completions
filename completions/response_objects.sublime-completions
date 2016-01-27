@@ -1,0 +1,33 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.Response(response=None, status=None, headers=None, mimetype=None, content_type=None, direct_passthrough=False)\t flask.Response",
+            "contents": "flask.Response(${1:response=None}, ${2:status=None}, ${3:headers=None}, ${4:mimetype=None}, ${5:content_type=None}, ${6:direct_passthrough=False})$0"
+        },
+        {
+            "trigger": "headers\t flask.Response",
+            "contents": "headers$0"
+        },
+        {
+            "trigger": "status\t flask.Response",
+            "contents": "status$0"
+        },
+        {
+            "trigger": "status_code\t flask.Response",
+            "contents": "status_code$0"
+        },
+        {
+            "trigger": "data\t flask.Response",
+            "contents": "data$0"
+        },
+        {
+            "trigger": "mimetype\t flask.Response",
+            "contents": "mimetype$0"
+        },
+        {
+            "trigger": "set_cookie(key, value='', max_age=None, expires=None, path='/', domain=None, secure=None, httponly=False)\t flask.Response",
+            "contents": "set_cookie(${1:key}, ${2:value=''}, ${3:max_age=None}, ${4:expires=None}, ${5:path='/'}, ${6:domain=None}, ${7:secure=None}, ${8:httponly=False})$0"
+        }
+    ]
+}

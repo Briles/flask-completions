@@ -1,0 +1,9 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.stream_with_context(generator_or_function)\t flask",
+            "contents": "flask.stream_with_context(${1:generator_or_function})$0"
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.sessions.SessionInterface\t flask.sessions.SessionInterface",
+            "contents": "flask.sessions.SessionInterface$0"
+        },
+        {
+            "trigger": "get_cookie_domain(app)\t flask.sessions.SessionInterface",
+            "contents": "get_cookie_domain(${1:app})$0"
+        },
+        {
+            "trigger": "get_cookie_httponly(app)\t flask.sessions.SessionInterface",
+            "contents": "get_cookie_httponly(${1:app})$0"
+        },
+        {
+            "trigger": "get_cookie_path(app)\t flask.sessions.SessionInterface",
+            "contents": "get_cookie_path(${1:app})$0"
+        },
+        {
+            "trigger": "get_cookie_secure(app)\t flask.sessions.SessionInterface",
+            "contents": "get_cookie_secure(${1:app})$0"
+        },
+        {
+            "trigger": "get_expiration_time(app, session)\t flask.sessions.SessionInterface",
+            "contents": "get_expiration_time(${1:app}, ${2:session})$0"
+        },
+        {
+            "trigger": "is_null_session(obj)\t flask.sessions.SessionInterface",
+            "contents": "is_null_session(${1:obj})$0"
+        },
+        {
+            "trigger": "make_null_session(app)\t flask.sessions.SessionInterface",
+            "contents": "make_null_session(${1:app})$0"
+        },
+        {
+            "trigger": "null_session_class\t flask.sessions.SessionInterface",
+            "contents": "null_session_class$0"
+        },
+        {
+            "trigger": "open_session(app, request)\t flask.sessions.SessionInterface",
+            "contents": "open_session(${1:app}, ${2:request})$0"
+        },
+        {
+            "trigger": "pickle_based = False\t flask.sessions.SessionInterface",
+            "contents": "pickle_based = False$0"
+        },
+        {
+            "trigger": "save_session(app, session, response)\t flask.sessions.SessionInterface",
+            "contents": "save_session(${1:app}, ${2:session}, ${3:response})$0"
+        },
+        {
+            "trigger": "should_set_cookie(app, session)\t flask.sessions.SessionInterface",
+            "contents": "should_set_cookie(${1:app}, ${2:session})$0"
+        },
+        {
+            "trigger": "flask.sessions.SecureCookieSessionInterface\t flask.sessions.SessionInterface",
+            "contents": "flask.sessions.SecureCookieSessionInterface$0"
+        },
+        {
+            "trigger": "static digest_method()\t flask.sessions.SessionInterface",
+            "contents": "static digest_method()$0"
+        },
+        {
+            "trigger": "key_derivation = 'hmac'\t flask.sessions.SessionInterface",
+            "contents": "key_derivation = 'hmac'$0"
+        },
+        {
+            "trigger": "salt = 'cookie-session'\t flask.sessions.SessionInterface",
+            "contents": "salt = 'cookie-session'$0"
+        },
+        {
+            "trigger": "serializer = <flask.sessions.TaggedJSONSerializer object>\t flask.sessions.SessionInterface",
+            "contents": "serializer = <flask.sessions.TaggedJSONSerializer object>$0"
+        },
+        {
+            "trigger": "session_class\t flask.sessions.SessionInterface",
+            "contents": "session_class$0"
+        },
+        {
+            "trigger": "flask.sessions.SecureCookieSession(initial=None)\t flask.sessions.SessionInterface",
+            "contents": "flask.sessions.SecureCookieSession(${1:initial=None})$0"
+        },
+        {
+            "trigger": "flask.sessions.NullSession(initial=None)\t flask.sessions.SessionInterface",
+            "contents": "flask.sessions.NullSession(${1:initial=None})$0"
+        },
+        {
+            "trigger": "flask.sessions.SessionMixin\t flask.sessions.SessionInterface",
+            "contents": "flask.sessions.SessionMixin$0"
+        },
+        {
+            "trigger": "modified = True\t flask.sessions.SessionInterface",
+            "contents": "modified = True$0"
+        },
+        {
+            "trigger": "new = False\t flask.sessions.SessionInterface",
+            "contents": "new = False$0"
+        },
+        {
+            "trigger": "permanent\t flask.sessions.SessionInterface",
+            "contents": "permanent$0"
+        },
+        {
+            "trigger": "flask.sessions.session_json_serializer = <flask.sessions.TaggedJSONSerializer object>\t flask.sessions.SessionInterface",
+            "contents": "flask.sessions.session_json_serializer = <flask.sessions.TaggedJSONSerializer object>$0"
+        }
+    ]
+}

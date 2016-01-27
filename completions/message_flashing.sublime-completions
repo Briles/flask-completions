@@ -1,0 +1,13 @@
+{
+    "scope": "source.python",
+    "completions": [
+        {
+            "trigger": "flask.flash(message, category='message')\t flask",
+            "contents": "flask.flash(${1:message}, ${2:category='message'})$0"
+        },
+        {
+            "trigger": "flask.get_flashed_messages(with_categories=False, category_filter=[])\t flask",
+            "contents": "flask.get_flashed_messages(${1:with_categories=False}, ${2:category_filter=[]})$0"
+        }
+    ]
+}

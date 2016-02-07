@@ -6,8 +6,8 @@
             "contents": "flask.testing.FlaskClient(${1:application}, ${2:response_wrapper=None}, ${3:use_cookies=True}, ${4:allow_subdomain_redirects=False})$0"
         },
         {
-            "trigger": "session_transaction(args, kwargs)\t flask.testing.FlaskClient",
-            "contents": "session_transaction(${1:args}, ${2:kwargs})$0"
+            "trigger": "session_transaction(*args, **kwargs)\t flask.testing.FlaskClient",
+            "contents": "session_transaction(${1:*args}, ${2:**kwargs})$0"
         }
     ]
 }

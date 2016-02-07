@@ -14,8 +14,8 @@
             "contents": "from_json(${1:filename}, ${2:silent=False})$0"
         },
         {
-            "trigger": "from_mapping(mapping, kwargs)\t flask.Config",
-            "contents": "from_mapping(${1:mapping}, ${2:kwargs})$0"
+            "trigger": "from_mapping(*mapping, **kwargs)\t flask.Config",
+            "contents": "from_mapping(${1:*mapping}, ${2:**kwargs})$0"
         },
         {
             "trigger": "from_object(obj)\t flask.Config",

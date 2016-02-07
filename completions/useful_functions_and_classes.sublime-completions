@@ -18,8 +18,8 @@
             "contents": "flask.has_app_context()$0"
         },
         {
-            "trigger": "flask.url_for(endpoint, values)\t flask.Markup",
-            "contents": "flask.url_for(${1:endpoint}, ${2:values})$0"
+            "trigger": "flask.url_for(endpoint, **values)\t flask.Markup",
+            "contents": "flask.url_for(${1:endpoint}, ${2:**values})$0"
         },
         {
             "trigger": "flask.abort(code)\t flask.Markup",
@@ -42,8 +42,8 @@
             "contents": "flask.send_file(${1:filename_or_fp}, ${2:mimetype=None}, ${3:as_attachment=False}, ${4:attachment_filename=None}, ${5:add_etags=True}, ${6:cache_timeout=None}, ${7:conditional=False})$0"
         },
         {
-            "trigger": "flask.send_from_directory(directory, filename, options)\t flask.Markup",
-            "contents": "flask.send_from_directory(${1:directory}, ${2:filename}, ${3:options})$0"
+            "trigger": "flask.send_from_directory(directory, filename, **options)\t flask.Markup",
+            "contents": "flask.send_from_directory(${1:directory}, ${2:filename}, ${3:**options})$0"
         },
         {
             "trigger": "flask.safe_join(directory, filename)\t flask.Markup",

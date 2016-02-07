@@ -70,8 +70,8 @@
             "contents": "flask.blueprints.BlueprintSetupState(${1:blueprint}, ${2:app}, ${3:options}, ${4:first_registration})$0"
         },
         {
-            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, options)\t flask.ctx.RequestContext",
-            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:options})$0"
+            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, **options)\t flask.ctx.RequestContext",
+            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:**options})$0"
         },
         {
             "trigger": "app = None\t flask.ctx.RequestContext",

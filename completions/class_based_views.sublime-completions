@@ -6,8 +6,8 @@
             "contents": "flask.views.View$0"
         },
         {
-            "trigger": "classmethod as_view(name, *class_args, class_kwargs)\t flask.views.View",
-            "contents": "classmethod as_view(${1:name}, ${2:*class_args}, ${3:class_kwargs})$0"
+            "trigger": "classmethod as_view(name, *class_args, **class_kwargs)\t flask.views.View",
+            "contents": "classmethod as_view(${1:name}, ${2:*class_args}, ${3:**class_kwargs})$0"
         },
         {
             "trigger": "decorators = ()\t flask.views.View",

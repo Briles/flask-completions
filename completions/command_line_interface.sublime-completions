@@ -2,20 +2,20 @@
     "scope": "source.python",
     "completions": [
         {
-            "trigger": "flask.cli.FlaskGroup(add_default_commands=True, add_app_option=None, add_debug_option=True, create_app=None, extra)\t flask.cli.FlaskGroup",
-            "contents": "flask.cli.FlaskGroup(${1:add_default_commands=True}, ${2:add_app_option=None}, ${3:add_debug_option=True}, ${4:create_app=None}, ${5:extra})$0"
+            "trigger": "flask.cli.FlaskGroup(add_default_commands=True, add_app_option=None, add_debug_option=True, create_app=None, **extra)\t flask.cli.FlaskGroup",
+            "contents": "flask.cli.FlaskGroup(${1:add_default_commands=True}, ${2:add_app_option=None}, ${3:add_debug_option=True}, ${4:create_app=None}, ${5:**extra})$0"
         },
         {
-            "trigger": "flask.cli.AppGroup(name=None, commands=None, attrs)\t flask.cli.FlaskGroup",
-            "contents": "flask.cli.AppGroup(${1:name=None}, ${2:commands=None}, ${3:attrs})$0"
+            "trigger": "flask.cli.AppGroup(name=None, commands=None, **attrs)\t flask.cli.FlaskGroup",
+            "contents": "flask.cli.AppGroup(${1:name=None}, ${2:commands=None}, ${3:**attrs})$0"
         },
         {
-            "trigger": "command(*args, kwargs)\t flask.cli.FlaskGroup",
-            "contents": "command(${1:*args}, ${2:kwargs})$0"
+            "trigger": "command(*args, **kwargs)\t flask.cli.FlaskGroup",
+            "contents": "command(${1:*args}, ${2:**kwargs})$0"
         },
         {
-            "trigger": "group(args, **kwargs)\t flask.cli.FlaskGroup",
-            "contents": "group(${1:args}, ${2:**kwargs})$0"
+            "trigger": "group(*args, **kwargs)\t flask.cli.FlaskGroup",
+            "contents": "group(${1:*args}, ${2:**kwargs})$0"
         },
         {
             "trigger": "flask.cli.ScriptInfo(app_import_path=None, debug=None, create_app=None)\t flask.cli.FlaskGroup",
@@ -50,8 +50,8 @@
             "contents": "flask.cli.pass_script_info(${1:f})$0"
         },
         {
-            "trigger": "flask.cli.script_info_option(args, **kwargs)\t flask.cli.FlaskGroup",
-            "contents": "flask.cli.script_info_option(${1:args}, ${2:**kwargs})$0"
+            "trigger": "flask.cli.script_info_option(*args, **kwargs)\t flask.cli.FlaskGroup",
+            "contents": "flask.cli.script_info_option(${1:*args}, ${2:**kwargs})$0"
         },
         {
             "trigger": "flask.cli.run_command = <click.core.Command object>\t flask.cli.FlaskGroup",

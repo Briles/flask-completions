@@ -18,8 +18,8 @@
             "contents": "add_template_test(${1:f}, ${2:name=None})$0"
         },
         {
-            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, options)\t flask.Flask",
-            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:options})$0"
+            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, **options)\t flask.Flask",
+            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:**options})$0"
         },
         {
             "trigger": "after_request(f)\t flask.Flask",
@@ -186,8 +186,8 @@
             "contents": "jinja_loader$0"
         },
         {
-            "trigger": "jinjaoptions = ImmutableDict({'extensions': ['jinja2.ext.autoescape', 'jinja2.ext.with']})\t flask.Flask",
-            "contents": "jinjaoptions = ImmutableDict(${1:\\{'extensions': ['jinja2.ext.autoescape', 'jinja2.ext.with']\\}})$0"
+            "trigger": "jinja_options = ImmutableDict({'extensions': ['jinja2.ext.autoescape', 'jinja2.ext.with_']})\t flask.Flask",
+            "contents": "jinja_options = ImmutableDict(${1:\\{'extensions': ['jinja2.ext.autoescape', 'jinja2.ext.with_']\\}})$0"
         },
         {
             "trigger": "json_decoder\t flask.Flask",
@@ -266,8 +266,8 @@
             "contents": "propagate_exceptions$0"
         },
         {
-            "trigger": "register_blueprint(blueprint, options)\t flask.Flask",
-            "contents": "register_blueprint(${1:blueprint}, ${2:options})$0"
+            "trigger": "register_blueprint(blueprint, **options)\t flask.Flask",
+            "contents": "register_blueprint(${1:blueprint}, ${2:**options})$0"
         },
         {
             "trigger": "register_error_handler(code_or_exception, f)\t flask.Flask",
@@ -286,12 +286,12 @@
             "contents": "response_class$0"
         },
         {
-            "trigger": "route(rule, options)\t flask.Flask",
-            "contents": "route(${1:rule}, ${2:options})$0"
+            "trigger": "route(rule, **options)\t flask.Flask",
+            "contents": "route(${1:rule}, ${2:**options})$0"
         },
         {
-            "trigger": "run(host=None, port=None, debug=None, options)\t flask.Flask",
-            "contents": "run(${1:host=None}, ${2:port=None}, ${3:debug=None}, ${4:options})$0"
+            "trigger": "run(host=None, port=None, debug=None, **options)\t flask.Flask",
+            "contents": "run(${1:host=None}, ${2:port=None}, ${3:debug=None}, ${4:**options})$0"
         },
         {
             "trigger": "save_session(session, response)\t flask.Flask",
@@ -378,8 +378,8 @@
             "contents": "test_client_= None$0"
         },
         {
-            "trigger": "test_request_context(*args, kwargs)\t flask.Flask",
-            "contents": "test_request_context(${1:*args}, ${2:kwargs})$0"
+            "trigger": "test_request_context(*args, **kwargs)\t flask.Flask",
+            "contents": "test_request_context(${1:*args}, ${2:**kwargs})$0"
         },
         {
             "trigger": "testing\t flask.Flask",

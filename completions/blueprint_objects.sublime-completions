@@ -18,8 +18,8 @@
             "contents": "add_app_template_test(${1:f}, ${2:name=None})$0"
         },
         {
-            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, options)\t flask.Blueprint",
-            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:options})$0"
+            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, **options)\t flask.Blueprint",
+            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:**options})$0"
         },
         {
             "trigger": "after_app_request(f)\t flask.Blueprint",
@@ -118,8 +118,8 @@
             "contents": "register_error_handler(${1:code_or_exception}, ${2:f})$0"
         },
         {
-            "trigger": "route(rule, options)\t flask.Blueprint",
-            "contents": "route(${1:rule}, ${2:options})$0"
+            "trigger": "route(rule, **options)\t flask.Blueprint",
+            "contents": "route(${1:rule}, ${2:**options})$0"
         },
         {
             "trigger": "send_static_file(filename)\t flask.Blueprint",

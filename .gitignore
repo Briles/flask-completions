@@ -1,6 +1,5 @@
-build.js
-package.json
-
+*.js
+*.json
 
 # Created by https://www.gitignore.io/api/sublimetext,node
 

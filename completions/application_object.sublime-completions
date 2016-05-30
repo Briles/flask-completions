@@ -290,8 +290,8 @@
             "contents": "route(${1:rule}, ${2:**options})$0"
         },
         {
-            "trigger": "run(host=None, port=None, debug=None, **options)��\t flask.Flask",
-            "contents": "run(${1:host=None}, ${2:port=None}, ${3:debug=None}, ${4:**options})��$0"
+            "trigger": "run(host=None, port=None, debug=None, **options)\t flask.Flask",
+            "contents": "run(${1:host=None}, ${2:port=None}, ${3:debug=None}, ${4:**options})$0"
         },
         {
             "trigger": "save_session(session, response)\t flask.Flask",

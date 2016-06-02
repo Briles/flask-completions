@@ -2,8 +2,8 @@
     "scope": "source.python",
     "completions": [
         {
-            "trigger": "flask.cli.FlaskGroup(add_default_commands=True, create_app=None, **extra)\t flask.cli.FlaskGroup",
-            "contents": "flask.cli.FlaskGroup(${1:add_default_commands=True}, ${2:create_app=None}, ${3:**extra})$0"
+            "trigger": "flask.cli.FlaskGroup(add_default_commands=True, create_app=None, add_version_option=True, **extra)\t flask.cli.FlaskGroup",
+            "contents": "flask.cli.FlaskGroup(${1:add_default_commands=True}, ${2:create_app=None}, ${3:add_version_option=True}, ${4:**extra})$0"
         },
         {
             "trigger": "flask.cli.AppGroup(name=None, commands=None, **attrs)\t flask.cli.FlaskGroup",

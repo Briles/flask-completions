@@ -38,16 +38,16 @@
             "contents": "flask.after_this_request(${1:f})$0"
         },
         {
-            "trigger": "flask.send_file(filename_or_fp, mimetype=None, as_attachment=False, attachment_filename=None, add_etags=True, cache_timeout=None, conditional=False)\t flask.Markup",
-            "contents": "flask.send_file(${1:filename_or_fp}, ${2:mimetype=None}, ${3:as_attachment=False}, ${4:attachment_filename=None}, ${5:add_etags=True}, ${6:cache_timeout=None}, ${7:conditional=False})$0"
+            "trigger": "flask.send_file(filename_or_fp, mimetype=None, as_attachment=False, attachment_filename=None, add_etags=True, cache_timeout=None, conditional=False, last_modified=None)\t flask.Markup",
+            "contents": "flask.send_file(${1:filename_or_fp}, ${2:mimetype=None}, ${3:as_attachment=False}, ${4:attachment_filename=None}, ${5:add_etags=True}, ${6:cache_timeout=None}, ${7:conditional=False}, ${8:last_modified=None})$0"
         },
         {
             "trigger": "flask.send_from_directory(directory, filename, **options)\t flask.Markup",
             "contents": "flask.send_from_directory(${1:directory}, ${2:filename}, ${3:**options})$0"
         },
         {
-            "trigger": "flask.safe_join(directory, filename)\t flask.Markup",
-            "contents": "flask.safe_join(${1:directory}, ${2:filename})$0"
+            "trigger": "flask.safe_join(directory, *pathnames)\t flask.Markup",
+            "contents": "flask.safe_join(${1:directory}, ${2:*pathnames})$0"
         },
         {
             "trigger": "flask.escape(s)\t flask.Markup",

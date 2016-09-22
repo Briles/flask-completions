@@ -22,8 +22,8 @@
             "contents": "flask.url_for(${1:endpoint}, ${2:**values})$0"
         },
         {
-            "trigger": "flask.abort(code)\t flask.Markup",
-            "contents": "flask.abort(${1:code})$0"
+            "trigger": "flask.abort()\t flask.Markup",
+            "contents": "flask.abort()$0"
         },
         {
             "trigger": "flask.redirect(location, code=302, Response=None)\t flask.Markup",

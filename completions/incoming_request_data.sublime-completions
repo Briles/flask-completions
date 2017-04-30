@@ -6,44 +6,8 @@
             "contents": "flask.Request(${1:environ}, ${2:populate_request=True}, ${3:shallow=False})$0"
         },
         {
-            "trigger": "form\t flask.Request",
-            "contents": "form$0"
-        },
-        {
-            "trigger": "args\t flask.Request",
-            "contents": "args$0"
-        },
-        {
-            "trigger": "values\t flask.Request",
-            "contents": "values$0"
-        },
-        {
-            "trigger": "cookies\t flask.Request",
-            "contents": "cookies$0"
-        },
-        {
-            "trigger": "stream\t flask.Request",
-            "contents": "stream$0"
-        },
-        {
-            "trigger": "headers\t flask.Request",
-            "contents": "headers$0"
-        },
-        {
-            "trigger": "data\t flask.Request",
-            "contents": "data$0"
-        },
-        {
-            "trigger": "files\t flask.Request",
-            "contents": "files$0"
-        },
-        {
             "trigger": "environ\t flask.Request",
             "contents": "environ$0"
-        },
-        {
-            "trigger": "method\t flask.Request",
-            "contents": "method$0"
         },
         {
             "trigger": "path\t flask.Request",
@@ -70,32 +34,200 @@
             "contents": "url_root$0"
         },
         {
-            "trigger": "is_xhr\t flask.Request",
-            "contents": "is_xhr$0"
+            "trigger": "accept_charsets\t flask.Request",
+            "contents": "accept_charsets$0"
+        },
+        {
+            "trigger": "accept_encodings\t flask.Request",
+            "contents": "accept_encodings$0"
+        },
+        {
+            "trigger": "accept_languages\t flask.Request",
+            "contents": "accept_languages$0"
+        },
+        {
+            "trigger": "accept_mimetypes\t flask.Request",
+            "contents": "accept_mimetypes$0"
+        },
+        {
+            "trigger": "access_route\t flask.Request",
+            "contents": "access_route$0"
+        },
+        {
+            "trigger": "application(f)\t flask.Request",
+            "contents": "application(${1:f})$0"
+        },
+        {
+            "trigger": "args\t flask.Request",
+            "contents": "args$0"
+        },
+        {
+            "trigger": "authorization\t flask.Request",
+            "contents": "authorization$0"
+        },
+        {
+            "trigger": "base_url\t flask.Request",
+            "contents": "base_url$0"
         },
         {
             "trigger": "blueprint\t flask.Request",
             "contents": "blueprint$0"
         },
         {
+            "trigger": "cache_control\t flask.Request",
+            "contents": "cache_control$0"
+        },
+        {
+            "trigger": "close()\t flask.Request",
+            "contents": "close()$0"
+        },
+        {
+            "trigger": "content_encoding\t flask.Request",
+            "contents": "content_encoding$0"
+        },
+        {
+            "trigger": "content_length\t flask.Request",
+            "contents": "content_length$0"
+        },
+        {
+            "trigger": "content_md5\t flask.Request",
+            "contents": "content_md5$0"
+        },
+        {
+            "trigger": "content_type\t flask.Request",
+            "contents": "content_type$0"
+        },
+        {
+            "trigger": "cookies\t flask.Request",
+            "contents": "cookies$0"
+        },
+        {
+            "trigger": "date\t flask.Request",
+            "contents": "date$0"
+        },
+        {
+            "trigger": "dict_storage_class\t flask.Request",
+            "contents": "dict_storage_class$0"
+        },
+        {
             "trigger": "endpoint\t flask.Request",
             "contents": "endpoint$0"
+        },
+        {
+            "trigger": "files\t flask.Request",
+            "contents": "files$0"
+        },
+        {
+            "trigger": "form\t flask.Request",
+            "contents": "form$0"
+        },
+        {
+            "trigger": "form_data_parser_class\t flask.Request",
+            "contents": "form_data_parser_class$0"
+        },
+        {
+            "trigger": "from_values(*args, **kwargs)\t flask.Request",
+            "contents": "from_values(${1:*args}, ${2:**kwargs})$0"
+        },
+        {
+            "trigger": "full_path\t flask.Request",
+            "contents": "full_path$0"
+        },
+        {
+            "trigger": "get_data(cache=True, as_text=False, parse_form_data=False)\t flask.Request",
+            "contents": "get_data(${1:cache=True}, ${2:as_text=False}, ${3:parse_form_data=False})$0"
         },
         {
             "trigger": "get_json(force=False, silent=False, cache=True)\t flask.Request",
             "contents": "get_json(${1:force=False}, ${2:silent=False}, ${3:cache=True})$0"
         },
         {
+            "trigger": "headers\t flask.Request",
+            "contents": "headers$0"
+        },
+        {
+            "trigger": "host\t flask.Request",
+            "contents": "host$0"
+        },
+        {
+            "trigger": "host_url\t flask.Request",
+            "contents": "host_url$0"
+        },
+        {
+            "trigger": "if_match\t flask.Request",
+            "contents": "if_match$0"
+        },
+        {
+            "trigger": "if_modified_since\t flask.Request",
+            "contents": "if_modified_since$0"
+        },
+        {
+            "trigger": "if_none_match\t flask.Request",
+            "contents": "if_none_match$0"
+        },
+        {
+            "trigger": "if_range\t flask.Request",
+            "contents": "if_range$0"
+        },
+        {
+            "trigger": "if_unmodified_since\t flask.Request",
+            "contents": "if_unmodified_since$0"
+        },
+        {
             "trigger": "is_json\t flask.Request",
             "contents": "is_json$0"
+        },
+        {
+            "trigger": "is_multiprocess\t flask.Request",
+            "contents": "is_multiprocess$0"
+        },
+        {
+            "trigger": "is_multithread\t flask.Request",
+            "contents": "is_multithread$0"
+        },
+        {
+            "trigger": "is_run_once\t flask.Request",
+            "contents": "is_run_once$0"
+        },
+        {
+            "trigger": "is_secure\t flask.Request",
+            "contents": "is_secure$0"
+        },
+        {
+            "trigger": "is_xhr\t flask.Request",
+            "contents": "is_xhr$0"
         },
         {
             "trigger": "json\t flask.Request",
             "contents": "json$0"
         },
         {
+            "trigger": "list_storage_class\t flask.Request",
+            "contents": "list_storage_class$0"
+        },
+        {
+            "trigger": "make_form_data_parser()\t flask.Request",
+            "contents": "make_form_data_parser()$0"
+        },
+        {
             "trigger": "max_content_length\t flask.Request",
             "contents": "max_content_length$0"
+        },
+        {
+            "trigger": "max_forwards\t flask.Request",
+            "contents": "max_forwards$0"
+        },
+        {
+            "trigger": "method\t flask.Request",
+            "contents": "method$0"
+        },
+        {
+            "trigger": "mimetype\t flask.Request",
+            "contents": "mimetype$0"
+        },
+        {
+            "trigger": "mimetype_params\t flask.Request",
+            "contents": "mimetype_params$0"
         },
         {
             "trigger": "module\t flask.Request",
@@ -106,16 +238,84 @@
             "contents": "on_json_loading_failed(${1:e})$0"
         },
         {
+            "trigger": "parameter_storage_class\t flask.Request",
+            "contents": "parameter_storage_class$0"
+        },
+        {
+            "trigger": "path\t flask.Request",
+            "contents": "path$0"
+        },
+        {
+            "trigger": "pragma\t flask.Request",
+            "contents": "pragma$0"
+        },
+        {
+            "trigger": "query_string\t flask.Request",
+            "contents": "query_string$0"
+        },
+        {
+            "trigger": "range\t flask.Request",
+            "contents": "range$0"
+        },
+        {
+            "trigger": "referrer\t flask.Request",
+            "contents": "referrer$0"
+        },
+        {
+            "trigger": "remote_addr\t flask.Request",
+            "contents": "remote_addr$0"
+        },
+        {
+            "trigger": "remote_user\t flask.Request",
+            "contents": "remote_user$0"
+        },
+        {
             "trigger": "routing_exception = None\t flask.Request",
             "contents": "routing_exception = None$0"
+        },
+        {
+            "trigger": "scheme\t flask.Request",
+            "contents": "scheme$0"
+        },
+        {
+            "trigger": "script_root\t flask.Request",
+            "contents": "script_root$0"
+        },
+        {
+            "trigger": "stream\t flask.Request",
+            "contents": "stream$0"
+        },
+        {
+            "trigger": "url\t flask.Request",
+            "contents": "url$0"
+        },
+        {
+            "trigger": "url_charset\t flask.Request",
+            "contents": "url_charset$0"
+        },
+        {
+            "trigger": "url_root\t flask.Request",
+            "contents": "url_root$0"
         },
         {
             "trigger": "url_rule = None\t flask.Request",
             "contents": "url_rule = None$0"
         },
         {
+            "trigger": "user_agent\t flask.Request",
+            "contents": "user_agent$0"
+        },
+        {
+            "trigger": "values\t flask.Request",
+            "contents": "values$0"
+        },
+        {
             "trigger": "view_args = None\t flask.Request",
             "contents": "view_args = None$0"
+        },
+        {
+            "trigger": "want_form_data_parsed\t flask.Request",
+            "contents": "want_form_data_parsed$0"
         },
         {
             "trigger": "flask.request\t flask.Request",

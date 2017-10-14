@@ -90,8 +90,20 @@
             "contents": "has_static_folder$0"
         },
         {
+            "trigger": "import_name = None\t flask.Blueprint",
+            "contents": "import_name = None$0"
+        },
+        {
             "trigger": "jinja_loader\t flask.Blueprint",
             "contents": "jinja_loader$0"
+        },
+        {
+            "trigger": "json_decoder = None\t flask.Blueprint",
+            "contents": "json_decoder = None$0"
+        },
+        {
+            "trigger": "json_encoder = None\t flask.Blueprint",
+            "contents": "json_encoder = None$0"
         },
         {
             "trigger": "make_setup_state(app, options, first_registration=False)\t flask.Blueprint",
@@ -118,6 +130,10 @@
             "contents": "register_error_handler(${1:code_or_exception}, ${2:f})$0"
         },
         {
+            "trigger": "root_path = None\t flask.Blueprint",
+            "contents": "root_path = None$0"
+        },
+        {
             "trigger": "route(rule, **options)\t flask.Blueprint",
             "contents": "route(${1:rule}, ${2:**options})$0"
         },
@@ -130,12 +146,20 @@
             "contents": "static_folder$0"
         },
         {
+            "trigger": "static_url_path\t flask.Blueprint",
+            "contents": "static_url_path$0"
+        },
+        {
             "trigger": "teardown_app_request(f)\t flask.Blueprint",
             "contents": "teardown_app_request(${1:f})$0"
         },
         {
             "trigger": "teardown_request(f)\t flask.Blueprint",
             "contents": "teardown_request(${1:f})$0"
+        },
+        {
+            "trigger": "template_folder = None\t flask.Blueprint",
+            "contents": "template_folder = None$0"
         },
         {
             "trigger": "url_defaults(f)\t flask.Blueprint",

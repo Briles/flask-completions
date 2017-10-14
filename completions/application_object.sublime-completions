@@ -2,8 +2,8 @@
     "scope": "source.python",
     "completions": [
         {
-            "trigger": "flask.Flask(import_name, static_path=None, static_url_path=None, static_folder='static', template_folder='templates', instance_path=None, instance_relative_config=False, root_path=None)\t flask.Flask",
-            "contents": "flask.Flask(${1:import_name}, ${2:static_path=None}, ${3:static_url_path=None}, ${4:static_folder='static'}, ${5:template_folder='templates'}, ${6:instance_path=None}, ${7:instance_relative_config=False}, ${8:root_path=None})$0"
+            "trigger": "flask.Flask(import_name, static_url_path=None, static_folder='static', static_host=None, host_matching=False, template_folder='templates', instance_path=None, instance_relative_config=False, root_path=None)\t flask.Flask",
+            "contents": "flask.Flask(${1:import_name}, ${2:static_url_path=None}, ${3:static_folder='static'}, ${4:static_host=None}, ${5:host_matching=False}, ${6:template_folder='templates'}, ${7:instance_path=None}, ${8:instance_relative_config=False}, ${9:root_path=None})$0"
         },
         {
             "trigger": "add_template_filter(f, name=None)\t flask.Flask",
@@ -18,8 +18,8 @@
             "contents": "add_template_test(${1:f}, ${2:name=None})$0"
         },
         {
-            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, **options)\t flask.Flask",
-            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:**options})$0"
+            "trigger": "add_url_rule(rule, endpoint=None, view_func=None, provide_automatic_options=None, **options)\t flask.Flask",
+            "contents": "add_url_rule(${1:rule}, ${2:endpoint=None}, ${3:view_func=None}, ${4:provide_automatic_options=None}, ${5:**options})$0"
         },
         {
             "trigger": "after_request(f)\t flask.Flask",
@@ -94,8 +94,8 @@
             "contents": "debug$0"
         },
         {
-            "trigger": "default_config = ImmutableDict({'JSON_AS_ASCII': True, 'USE_X_SENDFILE': False, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_NAME': 'session', 'DEBUG': False, 'LOGGER_HANDLER_POLICY': 'always', 'LOGGER_NAME': None, 'SESSION_COOKIE_SECURE': False, 'SECRET_KEY': None, 'EXPLAIN_TEMPLATE_LOADING': False, 'MAX_CONTENT_LENGTH': None, 'PROPAGATE_EXCEPTIONS': None, 'APPLICATION_ROOT': None, 'SERVER_NAME': None, 'PREFERRED_URL_SCHEME': 'http', 'JSONIFY_PRETTYPRINT_REGULAR': False, 'TESTING': False, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'TEMPLATES_AUTO_RELOAD': None, 'TRAP_BAD_REQUEST_ERRORS': False, 'JSON_SORT_KEYS': True, 'JSONIFY_MIMETYPE': 'application/json', 'SESSION_COOKIE_HTTPONLY': True, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'TRAP_HTTP_EXCEPTIONS': False})\t flask.Flask",
-            "contents": "default_config = ImmutableDict(${1:\\{'JSON_AS_ASCII': True}, ${2:'USE_X_SENDFILE': False}, ${3:'SESSION_COOKIE_PATH': None}, ${4:'SESSION_COOKIE_DOMAIN': None}, ${5:'SESSION_COOKIE_NAME': 'session'}, ${6:'DEBUG': False}, ${7:'LOGGER_HANDLER_POLICY': 'always'}, ${8:'LOGGER_NAME': None}, ${9:'SESSION_COOKIE_SECURE': False}, ${10:'SECRET_KEY': None}, ${11:'EXPLAIN_TEMPLATE_LOADING': False}, ${12:'MAX_CONTENT_LENGTH': None}, ${13:'PROPAGATE_EXCEPTIONS': None}, ${14:'APPLICATION_ROOT': None}, ${15:'SERVER_NAME': None}, ${16:'PREFERRED_URL_SCHEME': 'http'}, ${17:'JSONIFY_PRETTYPRINT_REGULAR': False}, ${18:'TESTING': False}, ${19:'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31}), 'TEMPLATES_AUTO_RELOAD': None, 'TRAP_BAD_REQUEST_ERRORS': False, 'JSON_SORT_KEYS': True, 'JSONIFY_MIMETYPE': 'application/json', 'SESSION_COOKIE_HTTPONLY': True, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'TRAP_HTTP_EXCEPTIONS': False})$0"
+            "trigger": "default_config = ImmutableDict({'JSON_AS_ASCII': True, 'USE_X_SENDFILE': False, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_NAME': 'session', 'DEBUG': False, 'PROPAGATE_EXCEPTIONS': None, 'SESSION_COOKIE_SECURE': False, 'SECRET_KEY': None, 'EXPLAIN_TEMPLATE_LOADING': False, 'MAX_CONTENT_LENGTH': None, 'APPLICATION_ROOT': '/', 'SERVER_NAME': None, 'PREFERRED_URL_SCHEME': 'http', 'JSONIFY_PRETTYPRINT_REGULAR': False, 'TESTING': False, 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'TEMPLATES_AUTO_RELOAD': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'JSON_SORT_KEYS': True, 'JSONIFY_MIMETYPE': 'application/json', 'SESSION_COOKIE_HTTPONLY': True, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'TRAP_HTTP_EXCEPTIONS': False})\t flask.Flask",
+            "contents": "default_config = ImmutableDict(${1:\\{'JSON_AS_ASCII': True}, ${2:'USE_X_SENDFILE': False}, ${3:'SESSION_COOKIE_PATH': None}, ${4:'SESSION_COOKIE_DOMAIN': None}, ${5:'SESSION_COOKIE_NAME': 'session'}, ${6:'DEBUG': False}, ${7:'PROPAGATE_EXCEPTIONS': None}, ${8:'SESSION_COOKIE_SECURE': False}, ${9:'SECRET_KEY': None}, ${10:'EXPLAIN_TEMPLATE_LOADING': False}, ${11:'MAX_CONTENT_LENGTH': None}, ${12:'APPLICATION_ROOT': '/'}, ${13:'SERVER_NAME': None}, ${14:'PREFERRED_URL_SCHEME': 'http'}, ${15:'JSONIFY_PRETTYPRINT_REGULAR': False}, ${16:'TESTING': False}, ${17:'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31}), 'TEMPLATES_AUTO_RELOAD': None, 'TRAP_BAD_REQUEST_ERRORS': None, 'JSON_SORT_KEYS': True, 'JSONIFY_MIMETYPE': 'application/json', 'SESSION_COOKIE_HTTPONLY': True, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SESSION_REFRESH_EACH_REQUEST': True, 'TRAP_HTTP_EXCEPTIONS': False})$0"
         },
         {
             "trigger": "dispatch_request()\t flask.Flask",
@@ -158,8 +158,8 @@
             "contents": "has_static_folder$0"
         },
         {
-            "trigger": "init_jinja_globals()\t flask.Flask",
-            "contents": "init_jinja_globals()$0"
+            "trigger": "import_name = None\t flask.Flask",
+            "contents": "import_name = None$0"
         },
         {
             "trigger": "inject_url_defaults(endpoint, values)\t flask.Flask",
@@ -206,10 +206,6 @@
             "contents": "logger$0"
         },
         {
-            "trigger": "logger_name\t flask.Flask",
-            "contents": "logger_name$0"
-        },
-        {
             "trigger": "make_config(instance_relative=False)\t flask.Flask",
             "contents": "make_config(${1:instance_relative=False})$0"
         },
@@ -224,6 +220,30 @@
         {
             "trigger": "make_response(rv)\t flask.Flask",
             "contents": "make_response(${1:rv})$0"
+        },
+        {
+            "trigger": "str (unicode in Python 2)\t flask.Flask",
+            "contents": "str (${1:unicode in Python 2})$0"
+        },
+        {
+            "trigger": "bytes (str in Python 2)\t flask.Flask",
+            "contents": "bytes (${1:str in Python 2})$0"
+        },
+        {
+            "trigger": "tuple\t flask.Flask",
+            "contents": "tuple$0"
+        },
+        {
+            "trigger": "response_class\t flask.Flask",
+            "contents": "response_class$0"
+        },
+        {
+            "trigger": "other Response class\t flask.Flask",
+            "contents": "other Response class$0"
+        },
+        {
+            "trigger": "callable()\t flask.Flask",
+            "contents": "callable()$0"
         },
         {
             "trigger": "make_shell_context()\t flask.Flask",
@@ -286,12 +306,16 @@
             "contents": "response_class$0"
         },
         {
+            "trigger": "root_path = None\t flask.Flask",
+            "contents": "root_path = None$0"
+        },
+        {
             "trigger": "route(rule, **options)\t flask.Flask",
             "contents": "route(${1:rule}, ${2:**options})$0"
         },
         {
-            "trigger": "run(host=None, port=None, debug=None, **options)\t flask.Flask",
-            "contents": "run(${1:host=None}, ${2:port=None}, ${3:debug=None}, ${4:**options})$0"
+            "trigger": "run(host=None, port=None, debug=None, load_dotenv=True, **options)\t flask.Flask",
+            "contents": "run(${1:host=None}, ${2:port=None}, ${3:debug=None}, ${4:load_dotenv=True}, ${5:**options})$0"
         },
         {
             "trigger": "save_session(session, response)\t flask.Flask",
@@ -338,6 +362,10 @@
             "contents": "static_folder$0"
         },
         {
+            "trigger": "static_url_path\t flask.Flask",
+            "contents": "static_url_path$0"
+        },
+        {
             "trigger": "teardown_appcontext(f)\t flask.Flask",
             "contents": "teardown_appcontext(${1:f})$0"
         },
@@ -362,12 +390,20 @@
             "contents": "template_filter(${1:name=None})$0"
         },
         {
+            "trigger": "template_folder = None\t flask.Flask",
+            "contents": "template_folder = None$0"
+        },
+        {
             "trigger": "template_global(name=None)\t flask.Flask",
             "contents": "template_global(${1:name=None})$0"
         },
         {
             "trigger": "template_test(name=None)\t flask.Flask",
             "contents": "template_test(${1:name=None})$0"
+        },
+        {
+            "trigger": "templates_auto_reload\t flask.Flask",
+            "contents": "templates_auto_reload$0"
         },
         {
             "trigger": "test_client(use_cookies=True, **kwargs)\t flask.Flask",

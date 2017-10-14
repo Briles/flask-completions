@@ -230,10 +230,6 @@
             "contents": "mimetype_params$0"
         },
         {
-            "trigger": "module\t flask.Request",
-            "contents": "module$0"
-        },
-        {
             "trigger": "on_json_loading_failed(e)\t flask.Request",
             "contents": "on_json_loading_failed(${1:e})$0"
         },

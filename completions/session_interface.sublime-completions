@@ -70,8 +70,8 @@
             "contents": "salt = 'cookie-session'$0"
         },
         {
-            "trigger": "serializer = <flask.sessions.TaggedJSONSerializer object>\t flask.sessions.SessionInterface",
-            "contents": "serializer = <flask.sessions.TaggedJSONSerializer object>$0"
+            "trigger": "serializer = <flask.json.tag.TaggedJSONSerializer object>\t flask.sessions.SessionInterface",
+            "contents": "serializer = <flask.json.tag.TaggedJSONSerializer object>$0"
         },
         {
             "trigger": "session_class\t flask.sessions.SessionInterface",
@@ -90,6 +90,10 @@
             "contents": "flask.sessions.SessionMixin$0"
         },
         {
+            "trigger": "accessed = True\t flask.sessions.SessionInterface",
+            "contents": "accessed = True$0"
+        },
+        {
             "trigger": "modified = True\t flask.sessions.SessionInterface",
             "contents": "modified = True$0"
         },
@@ -100,10 +104,6 @@
         {
             "trigger": "permanent\t flask.sessions.SessionInterface",
             "contents": "permanent$0"
-        },
-        {
-            "trigger": "flask.sessions.session_json_serializer = <flask.sessions.TaggedJSONSerializer object>\t flask.sessions.SessionInterface",
-            "contents": "flask.sessions.session_json_serializer = <flask.sessions.TaggedJSONSerializer object>$0"
         }
     ]
 }

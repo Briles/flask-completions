@@ -2,8 +2,8 @@
     "scope": "source.python",
     "completions": [
         {
-            "trigger": "flask.cli.FlaskGroup(add_default_commands=True, create_app=None, add_version_option=True, **extra)\t flask.cli.FlaskGroup",
-            "contents": "flask.cli.FlaskGroup(${1:add_default_commands=True}, ${2:create_app=None}, ${3:add_version_option=True}, ${4:**extra})$0"
+            "trigger": "flask.cli.FlaskGroup(add_default_commands=True, create_app=None, add_version_option=True, load_dotenv=True, **extra)\t flask.cli.FlaskGroup",
+            "contents": "flask.cli.FlaskGroup(${1:add_default_commands=True}, ${2:create_app=None}, ${3:add_version_option=True}, ${4:load_dotenv=True}, ${5:**extra})$0"
         },
         {
             "trigger": "flask.cli.AppGroup(name=None, commands=None, **attrs)\t flask.cli.FlaskGroup",
@@ -36,6 +36,10 @@
         {
             "trigger": "load_app()\t flask.cli.FlaskGroup",
             "contents": "load_app()$0"
+        },
+        {
+            "trigger": "flask.cli.load_dotenv(path=None)\t flask.cli.FlaskGroup",
+            "contents": "flask.cli.load_dotenv(${1:path=None})$0"
         },
         {
             "trigger": "flask.cli.with_appcontext(f)\t flask.cli.FlaskGroup",

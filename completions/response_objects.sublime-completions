@@ -22,6 +22,14 @@
             "contents": "data$0"
         },
         {
+            "trigger": "get_json(force=False, silent=False, cache=True)\t flask.Response",
+            "contents": "get_json(${1:force=False}, ${2:silent=False}, ${3:cache=True})$0"
+        },
+        {
+            "trigger": "is_json\t flask.Response",
+            "contents": "is_json$0"
+        },
+        {
             "trigger": "mimetype\t flask.Response",
             "contents": "mimetype$0"
         },
